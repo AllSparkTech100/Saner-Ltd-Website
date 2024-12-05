@@ -48,12 +48,16 @@ function Home() {
               <div className="btn-carrier mt-4">
                 <div className="">
                   <button className="btn-yellow fw-medium text-uppercase">
-                    <a href="#">Get Started</a>
+                    <a href="https://wa.link/1w05vq" target="_blank">
+                      Get Started
+                    </a>
                   </button>
                 </div>
                 <div className="">
                   <button className="btn-transparent  fw-medium text-uppercase">
-                    <a href="#">Contact Us</a>
+                    <a href="https://wa.link/1w05vq" target="_blank">
+                      Contact Us
+                    </a>
                   </button>
                 </div>
               </div>
@@ -221,7 +225,11 @@ function Home() {
             growth and fulfillment.
           </p>
           <button className="bg-dark btn rounded-5 my-3 py-md-4 px-md-5">
-            <a href="#" className="text-white">
+            <a
+              href="https://linktr.ee/alexandercomfort?fbclid=IwY2xjawGXHzRleHRuA2FlbQIxMAABHXZcpw-IWCNMDL5ZHdvdoEhPvKHae8LuTVyvOJItmXfR7RKVt7CinYZwkQ_aem_rxzbBEAA7gl_r03ZfQvW9g"
+              target="_blank"
+              className="text-white"
+            >
               Discover More
             </a>
           </button>
@@ -307,6 +315,7 @@ function Home() {
               <a
                 href="mailto:mentalhealthplus24@gmail.com"
                 className="text-black fw-medium"
+                target="_blank"
               >
                 Get Started
               </a>

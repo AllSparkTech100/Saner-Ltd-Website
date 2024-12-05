@@ -41,7 +41,7 @@ function NavHead() {
               <button className="btn-yellow d-none d-md-block d-lg-block ms-auto mb-3 me-4 ">
                 <a
                   href="mailto:mentalhealthplus24@gmail.com"
-                  className="text-dark"
+                  className="text-dark fw-medium"
                 >
                   Book a Session
                 </a>

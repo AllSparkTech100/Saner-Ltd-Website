@@ -47,7 +47,7 @@ function ContactCard() {
             <p className="">
               <a
                 href="mailto:mentalhealthplus24@gmail.com"
-                className="text-decoration-none text-white"
+                className="text-decoration-none text-white" target="_blank"
               >
                 mentalhealthplus24@gmail.com
               </a>
@@ -55,7 +55,7 @@ function ContactCard() {
             <p className="">
               <a
                 href="mailto:comfortikangenyin@gmail.com"
-                className="text-decoration-none text-white"
+                className="text-decoration-none text-white" target="_blank"
               >
                 comfortikangenyin@gmail.com
               </a>
@@ -74,7 +74,7 @@ function ContactCard() {
             <h3 className="mb-3">Let&apos;s Talk</h3>
             <p className="my-1 fw-bold">
               Phone:{" "}
-              <a href="tel:+2348149944531">
+              <a href="tel:+2348149944531" target="_blank">
                 <span className="fw-normal">+2348071277101</span>
               </a>
             </p>

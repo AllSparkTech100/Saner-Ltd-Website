@@ -39,7 +39,11 @@ function ServiceCard() {
               space for open communication and guidance.
             </p>
             <button className="btn bg-dark dark-btn text-white">
-              <a href="" className="text-white">
+              <a
+                href="https://wa.link/1w05vq"
+                className="text-white"
+                target="_blank"
+              >
                 Learn More
               </a>
             </button>
@@ -61,7 +65,11 @@ function ServiceCard() {
               understanding and collaboration.
             </p>
             <button className="btn bg-white dark-btn">
-              <a href="" className="text-dark">
+              <a
+                href="https://wa.link/1w05vq"
+                className="text-dark"
+                target="_blank"
+              >
                 Learn More
               </a>
             </button>
@@ -88,7 +96,11 @@ function ServiceCard() {
               personal growth and fulfillment.
             </p>
             <button className="btn bg-dark dark-btn text-white">
-              <a href="" className="text-white">
+              <a
+                href="https://wa.link/1w05vq"
+                className="text-white"
+                target="_blank"
+              >
                 Learn More
               </a>
             </button>
