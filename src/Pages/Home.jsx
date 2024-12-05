@@ -7,9 +7,11 @@ import therapist from "../Images/therapist.jpeg";
 import therapy from "../Images/therap2.jpeg";
 import counsel from "../Images/counsel.jpeg";
 import Counsel from "../Images/child counsel.jpeg";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ScrollTrigger from "react-scroll-trigger";
+import CountUp from "react-countup";
 
 function Home() {
   useEffect(() => {
@@ -23,6 +25,7 @@ function Home() {
     });
   });
   AOS.refresh();
+  const [counterState, setCounterState] = useState(false);
   return (
     <>
       {/* Hero */}
@@ -63,20 +66,41 @@ function Home() {
               </div>
             </section>
             <hr />
-            <div className="counter mt-1 p-lg-3 p-md-3 p-sm-0">
-              <div className="me-md-3 me-lg-3 m-1">
-                <h3 className="">25+</h3>
-                <p>Years Experience</p>
+            <ScrollTrigger
+              onEnter={() => setCounterState(true)}
+              onExit={() => setCounterState(false)}
+            >
+              <div className="counter mt-1 p-lg-3 p-md-3 p-sm-0">
+                <div className="me-md-3 me-lg-3 m-1">
+                  <h3 className="">
+                    {counterState && (
+                      <CountUp start={0} end={25} duration={2.75}></CountUp>
+                    )}{" "}
+                    +
+                  </h3>
+                  <p>Years Experience</p>
+                </div>
+                <div className="me-md-3 me-lg-3 m-1">
+                  <h3 className="">
+                    {counterState && (
+                      <CountUp start={0} end={7.5} duration={2.75}></CountUp>
+                    )}
+                    k+
+                  </h3>
+                  <p>Active Members</p>
+                </div>
+                <div className="ms-md-3 ms-lg-3 m-1">
+                  <h3 className="">
+                    {" "}
+                    {counterState && (
+                      <CountUp start={0} end={99} duration={2.75}></CountUp>
+                    )}
+                    %
+                  </h3>
+                  <p>Satisfied Clients</p>
+                </div>
               </div>
-              <div className="me-md-3 me-lg-3 m-1">
-                <h3 className="">7.8k+</h3>
-                <p>Active Members</p>
-              </div>
-              <div className="ms-md-3 ms-lg-3 m-1">
-                <h3 className="">99%</h3>
-                <p>Satisfied Clients</p>
-              </div>
-            </div>
+            </ScrollTrigger>
           </Col>
 
           {/* rigth image column*/}
@@ -98,9 +122,7 @@ function Home() {
           <Row className="">
             <Col md={12} sm={12} lg={12} className="mb-0 mb-md-5 mb-lg-5">
               <section>
-                <div
-                  className=" d-md-block d-lg-block middle-right-hero-image"
-                >
+                <div className=" d-md-block d-lg-block middle-right-hero-image">
                   <img src={Counsel} alt="Child Counselling" loading="lazy" />
                 </div>
               </section>
@@ -164,8 +186,8 @@ function Home() {
                         </h5>
 
                         <p className="card-text fs-5">
-                          A one-on-one approach tailored to a person&apos;s unique
-                          needs, offering personalized support to address
+                          A one-on-one approach tailored to a person&apos;s
+                          unique needs, offering personalized support to address
                           emotional, psychological, or behavioral concerns.
                         </p>
                       </div>
@@ -257,9 +279,7 @@ function Home() {
                 <li data-aos="fade-up">
                   Communities in need of Emotional Support
                 </li>
-                <li data-aos="fade-up">
-                  Individuals Seeking Personal Growth
-                </li>
+                <li data-aos="fade-up">Individuals Seeking Personal Growth</li>
               </ul>
             </Col>
 

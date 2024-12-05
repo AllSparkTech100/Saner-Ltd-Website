@@ -24,7 +24,7 @@ function NavHead() {
             </Navbar.Brand>
 
             <Navbar.Collapse id="basic-navbar-nav d-md-block shadow-none">
-              <Nav className="ms-auto large-nav me-auto align-items-md-center justify-content-md-between ">
+              <Nav className="ms-auto large-nav align-items-md-center justify-content-md-between ">
                 <Nav.Link href="/" className="text-white">
                   Home
                 </Nav.Link>

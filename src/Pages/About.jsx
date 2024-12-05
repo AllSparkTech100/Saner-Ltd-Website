@@ -188,8 +188,8 @@ function About() {
           </h4>
         </div>
 
-        <Row className="mt-5 flex-md-row flex-lg-row flex-column">
-          <Col sm={12} md={4} lg={4} className="mt-3 mb-3">
+        <Row className="mt-5 flex-md-column flex-lg-row flex-column">
+          <Col sm={12} md={6} lg={4} className="mt-3 align-items-md-center mb-3">
             <Card className="border-0 h-100 h-md-75 carrd" data-aos="fade-up">
               <Card.Img
                 variant="top"
@@ -247,7 +247,7 @@ function About() {
               </div>
             </Card>
           </Col>
-          <Col sm={12} md={8} lg={8} className="mt-3 mb-3">
+          <Col sm={12} md={12} lg={8} className="mt-3 mb-3">
             <div className="mt-4 texts" data-aos="fade-up">
               <p className="fw-normal my-2">
                 Alexander Comfort is a practicing counseling psychologist
