@@ -27,7 +27,7 @@ function ServiceCard() {
         >
           <div
             className="service-carrier h-100 carde py-0 px-3 mt-3 mb-3 mx-2 text-center"
-            data-aos="flip-right"
+            data-aos="fade-up"
           >
             <div className="my-3 fw-normal text-dark text-warning">
               <FaChildren size={60} />
@@ -53,7 +53,7 @@ function ServiceCard() {
         <Col sm={12} md={12} lg={6} className="mt-4 mt-md-0 mt-lg-4">
           <div
             className="service-carrier h-100 py-0 px-3 mt-3 mb-3 mx-2 dark-card text-white text-center"
-            data-aos="flip-left"
+            data-aos="fade-up"
           >
             <div className="my-3 fw-normal text-warning">
               <TbPhysotherapist size={50} />

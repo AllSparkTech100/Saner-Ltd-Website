@@ -28,7 +28,7 @@ function Home() {
       {/* Hero */}
       <Container className="hero-carrier" fluid>
         <Row>
-          <Col lg={6} md={6} sm={12} data-aos="fade-left">
+          <Col lg={6} md={6} sm={12} data-aos="fade-up">
             <section className="mt-5 p-lg-3 p-sm-0">
               <h4 className="text-warning text-uppercase">
                 mental health plus and saner ltd.
@@ -93,18 +93,13 @@ function Home() {
 
       {/* Who we are */}
 
-      <section className="middle-holder">
+      <section className="middle-holder container-fluid">
         <Container className="p-lg-5 p-sm-0 p-md-5" fluid>
-          <Row className="flex-md-column flex-lg-column">
+          <Row className="">
             <Col md={12} sm={12} lg={12} className="mb-0 mb-md-5 mb-lg-5">
               <section>
                 <div
                   className=" d-md-block d-lg-block middle-right-hero-image"
-                  data-aos="zoom-in"
-                  data-aos-offset="200"
-                  data-aos-delay="10"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease-in-out"
                 >
                   <img src={Counsel} alt="Child Counselling" loading="lazy" />
                 </div>
@@ -169,7 +164,7 @@ function Home() {
                         </h5>
 
                         <p className="card-text fs-5">
-                          A one-on-one approach tailored to a person’s unique
+                          A one-on-one approach tailored to a person&apos;s unique
                           needs, offering personalized support to address
                           emotional, psychological, or behavioral concerns.
                         </p>
@@ -211,7 +206,7 @@ function Home() {
         </Container>
       </section>
       {/* Image with Circle */}
-      <section className="better bg-image">
+      <section className="better bg-image container-fluid">
         <div className="circle p-5 text-center" data-aos="zoom-in">
           <h2 className="text-warning text-uppercase mb-md-3 mb-1">
             Our Value
@@ -247,7 +242,7 @@ function Home() {
               data-aos="fade-up"
             >
               <h3 className="prof-serv-head">Professional Services</h3>
-              <h5 className="" data-aos="fade-left">
+              <h5 className="" data-aos="fade-up">
                 We want you to get the care you deserve !!!
               </h5>
               <p className="my-3" data-aos="fade-up">
@@ -256,13 +251,13 @@ function Home() {
                 safe space for open communication and guidance.
               </p>
               <ul>
-                <li data-aos="fade-left">Individuals with high stress</li>
-                <li data-aos="fade-right">People with Anxiety or Depression</li>
-                <li data-aos="fade-left">Busy Professionals</li>
-                <li data-aos="fade-right">
+                <li data-aos="fade-up">Individuals with high stress</li>
+                <li data-aos="fade-up">People with Anxiety or Depression</li>
+                <li data-aos="fade-up">Busy Professionals</li>
+                <li data-aos="fade-up">
                   Communities in need of Emotional Support
                 </li>
-                <li data-aos="fade-left">
+                <li data-aos="fade-up">
                   Individuals Seeking Personal Growth
                 </li>
               </ul>

@@ -25,7 +25,7 @@ function ContactCard() {
         <Col sm={12} md={6} lg={4}>
           <div
             className="contact-carrier py-0 px-3 mt-3 mb-3 mx-2 text-center"
-            data-aos="flip-right"
+            data-aos="fade-up"
           >
             <div className="my-3 square fw-normal p-3 text-white">
               <FaLocationDot size={30} />
@@ -38,7 +38,7 @@ function ContactCard() {
         <Col sm={12} md={6} lg={4}>
           <div
             className="contact-carrier py-0 px-3 mt-3 mb-3 mx-2 dark-card text-white text-center"
-            data-aos="flip-left"
+            data-aos="fade-up"
           >
             <div className="my-3 square fw-normal text-white">
               <GoMail size={30} />
@@ -66,7 +66,7 @@ function ContactCard() {
         <Col sm={12} md={12} lg={4}>
           <div
             className="contact-carrier py-0 px-3 mt-3 mb-3 mx-2 text-center"
-            data-aos="flip-up"
+            data-aos="fade-up"
           >
             <div className="my-3  square fw-normal text-warning">
               <IoCall size={30} className="text-white" />
