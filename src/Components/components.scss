@@ -97,21 +97,6 @@
   }
 }
 
-.feed-carrier {
-  .user-image {
-    overflow: hidden;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      object-position: top;
-    }
-  }
-}
-
 @media screen and (min-width: 768px) {
   .service-carrier {
     h3 {

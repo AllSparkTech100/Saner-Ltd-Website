@@ -38,9 +38,12 @@ function Home() {
                 A healthy Mind is <br /> a Wealthy Soul
               </h3>
               <p className="mt-3">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
-                ullam delectus quas distinctio adipisci sint cumque? Et quod
-                natus iusto!
+                Invest in your mental health through practices like mindfulness,
+                therapy, journaling, or simply taking time to rest. Remember,
+                when your mind is healthy, your soul flourishes—and that&apos;s
+                the true wealth we should all strive for. Take the first step
+                toward your mental wellness today, because a wealthy soul begins
+                with a healthy mind.
               </p>
               <div className="btn-carrier mt-4">
                 <div className="">
@@ -91,7 +94,14 @@ function Home() {
           <Row className="flex-md-column flex-lg-column">
             <Col md={12} sm={12} lg={12} className="mb-0 mb-md-5 mb-lg-5">
               <section>
-                <div className=" d-md-block d-lg-block middle-right-hero-image">
+                <div
+                  className=" d-md-block d-lg-block middle-right-hero-image"
+                  data-aos="zoom-in"
+                  data-aos-offset="200"
+                  data-aos-delay="10"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                >
                   <img src={Counsel} alt="Child Counselling" loading="lazy" />
                 </div>
               </section>
@@ -120,7 +130,7 @@ function Home() {
 
                 {/* Different Therapies */}
                 <div className="mid-options row mt-5">
-                  <div className="col-12 col-md-4 col-lg-4 mt-md-0 mt-lg-0 mt-3">
+                  <div className="col-12 col-md-12 col-lg-4 mt-md-3 mt-lg-3 mt-3">
                     <div
                       className="option card border-5 border-dark  text-center p-md-4 h-100 rounded-5 p-4"
                       data-aos="fade-up"
@@ -134,16 +144,14 @@ function Home() {
                         </h5>
 
                         <p className="card-text fs-5">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni debitis iste quisquam, dolorum assumenda
-                          fuga odit eligendi accusamus blanditiis impedit
-                          officiis, natus quis laboriosam quasi itaque animi
-                          soluta et! Aut.
+                          Uses age-appropriate techniques to help children
+                          process emotions, improve behavior, and build coping
+                          skills in a supportive environment.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 col-md-4 col-lg-4 mt-md-0 mt-lg-0 mt-3">
+                  <div className="col-12 col-md-12 col-lg-4 mt-md-3 mt-lg-3 mt-3">
                     <div
                       className="option card border-5 border-dark  text-center p-md-4 h-100 rounded-5 p-4"
                       data-aos="fade-up"
@@ -157,16 +165,14 @@ function Home() {
                         </h5>
 
                         <p className="card-text fs-5">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni debitis iste quisquam, dolorum assumenda
-                          fuga odit eligendi accusamus blanditiis impedit
-                          officiis, natus quis laboriosam quasi itaque animi
-                          soluta et! Aut.
+                          A one-on-one approach tailored to a person’s unique
+                          needs, offering personalized support to address
+                          emotional, psychological, or behavioral concerns.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-12 col-md-4 col-lg-4 mt-md-0 mt-lg-0 mt-3">
+                  <div className="col-12 col-md-12 col-lg-4 mt-md-3 mt-lg-3 mt-3">
                     <div
                       className="option card border-5 border-dark  text-center p-md-4 h-100 rounded-5 p-4"
                       data-aos="fade-up"
@@ -180,11 +186,9 @@ function Home() {
                         </h5>
 
                         <p className="card-text fs-5">
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni debitis iste quisquam, dolorum assumenda
-                          fuga odit eligendi accusamus blanditiis impedit
-                          officiis, natus quis laboriosam quasi itaque animi
-                          soluta et! Aut.
+                          Provides a supportive group setting where individuals
+                          can share experiences, gain insights, and develop
+                          social skills while working towards common goals.
                         </p>
                       </div>
                     </div>
@@ -212,9 +216,9 @@ function Home() {
             Bringing Therapy to <br /> the Common Man
           </h4>
           <p className="my-md-3 my-2">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora,
-            laboriosam. Itaque, officia. Incidunt esse aut officiis odit qui!
-            Illum facere repellendus porro tempora velit vero?
+            Aims to help individuals explore career options, set professional
+            goals, <br /> and overcome workplace challenges, fostering personal
+            growth and fulfillment.
           </p>
           <button className="bg-dark btn rounded-5 my-3 py-md-4 px-md-5">
             <a href="#" className="text-white">
@@ -239,9 +243,9 @@ function Home() {
                 We want you to get the care you deserve !!!
               </h5>
               <p className="my-3" data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloremnam repudiandae molestiae, similique totam ad?nam
-                repudiandae molestiae, similique totam ad?
+                Focusing on helping individuals address specific challenges,
+                such as stress, anxiety, or relationship issues, by providing a
+                safe space for open communication and guidance.
               </p>
               <ul>
                 <li data-aos="fade-left">Individuals with high stress</li>
@@ -293,8 +297,9 @@ function Home() {
           </h3>
           <div>
             <p className="text-white text-justify mt-4 mb-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-              ipsa, culpa corrupti repellendus et totam?
+              We provide a supportive group setting where individuals can share
+              experiences, gain insights, and develop social skills while
+              working towards common goals.
             </p>
           </div>
           <div>
