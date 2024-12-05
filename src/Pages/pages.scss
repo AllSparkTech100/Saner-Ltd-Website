@@ -9,10 +9,23 @@
   @media screen and (max-width: 575px) {
     height: 120vh !important;
   }
+  h4 {
+    @media screen and (max-width: 575.98px) {
+      text-align: left !important;
+      
+    }
+  }
   h3 {
     font-size: 4rem;
     font-weight: bold !important;
     text-transform: uppercase;
+    @media screen and (max-width: 348px) {
+      font-size: 2rem !important ;
+    }
+    @media screen and (max-width: 575px) {
+      text-align: left !important;
+      font-size: 3.4rem ;
+    }
   }
   p {
     text-align: justify;
@@ -682,7 +695,7 @@
 }
 @media screen and (min-width: 768px) {
   .hero-carrier {
-    height: 75vh !important;
+    height: 110vh !important;
 
     h4 {
       font-size: 16px;
@@ -703,7 +716,7 @@
       }
     }
     .right-hero-image {
-      height: 60vh;
+      height: 110vh !important;
     }
   }
 

@@ -33,11 +33,11 @@ function Home() {
         <Row>
           <Col lg={6} md={6} sm={12} data-aos="fade-up">
             <section className="mt-5 p-lg-3 p-sm-0">
-              <h4 className="text-warning text-uppercase">
+              <h4 className="text-warning text-center text-md-start text-lg-start text-uppercase">
                 mental health plus and saner ltd.
               </h4>
 
-              <h3 className="mt-3">
+              <h3 className="mt-3 text-center text-md-start text-lg-start">
                 A healthy Mind is <br /> a Wealthy Soul
               </h3>
               <p className="mt-3">
