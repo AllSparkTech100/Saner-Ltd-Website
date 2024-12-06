@@ -18,7 +18,10 @@
     font-size: 4rem;
     font-weight: bold !important;
     text-transform: uppercase;
-    @media screen and (max-width: 348px) and (max-width: 375px) {
+    @media screen and (max-width: 348px) {
+      font-size: 2rem !important ;
+    }
+    @media screen and (max-width: 375px) {
       font-size: 2rem !important ;
     }
 
