@@ -12,22 +12,19 @@
   h4 {
     @media screen and (max-width: 575.98px) {
       text-align: left !important;
-      
     }
   }
   h3 {
     font-size: 4rem;
     font-weight: bold !important;
     text-transform: uppercase;
-    @media screen and (max-width: 348px) {
+    @media screen and (max-width: 348px) and (max-width: 375px) {
       font-size: 2rem !important ;
     }
-    @media screen and (max-width: 306px) {
-      font-size: 18px !important ;
-    }
+
     @media screen and (max-width: 575.98px) {
       text-align: left !important;
-      font-size: 3.4rem ;
+      font-size: 3.4rem;
     }
   }
   p {
@@ -366,16 +363,16 @@
   margin-top: 10rem;
 }
 
-@media screen and (max-width: 320px) {  
+@media screen and (max-width: 320px) {
   // Home Style
   .hero-carrier {
     max-height: 120vh !important;
 
     h4 {
-      font-size: 14px;
+      font-size: 12px !important;
     }
     h3 {
-      font-size: 2rem !important;
+      font-size: 1.8rem !important;
     }
 
     .btn-carrier {
@@ -535,7 +532,7 @@
       font-size: 16px;
     }
     h3 {
-      font-size:2.5rem !important;
+      font-size: 2.5rem;
     }
 
     .btn-carrier {
@@ -710,7 +707,7 @@
     .btn-carrier {
       width: 100%;
     }
-   
+
     .right-hero-image {
       height: 110vh !important;
     }
